@@ -49,7 +49,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        
       - name: Server Shell
         uses: tzzs/server-shell@v3
-
